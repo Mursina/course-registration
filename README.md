@@ -23,11 +23,16 @@ This example involves several steps:
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Business%20Data%20Model.png)
 
 - Actors defined in the process
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Actors.png)
 
 - User credential to the portal (Note: password is abc)
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Members.png)
 
 - Contracts defined for the application form
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/contracts.png)
 
 - UI for application
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/forms.png)
 
 - Current validation status
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Validation%20status.png)
