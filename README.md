@@ -20,6 +20,7 @@ This example involves several steps:
 
 ## Screenshots
 - Businees object created for the process
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Business%20Data%20Model.png)
 
 - Actors defined in the process
 
