@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Lecturer1">
+      <firstName>l1</firstName>
+      <jobTitle>Lecturer</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Lecturer2">
+      <firstName>l2</firstName>
+      <jobTitle>Lecturer</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Lecturer3">
+      <firstName>l3</firstName>
+      <jobTitle>Lecturer</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="DepElec">
+      <firstName>Head of the Department</firstName>
+      <lastName>Electrical</lastName>
+      <jobTitle>Head of the Department</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="DepCivil">
+      <firstName>Head of the Department</firstName>
+      <lastName>Civil</lastName>
+      <jobTitle>Head of the Department</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="DepMech">
+      <firstName>Head of the Department</firstName>
+      <lastName>Mechanical</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="RegExamination">
+      <firstName>Deputy Registrar</firstName>
+      <lastName>Examination</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="RegFaculty">
+      <firstName>Deputy Registrar</firstName>
+      <lastName>Faculty</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Applicant">
+      <firstName>Student</firstName>
+      <title></title>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="AdmissionOfficer">
+      <firstName>Adfmission Officer</firstName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">abc</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Admission Officer">
+      <displayName>Admission Officer</displayName>
+    </role>
+    <role name="Applicant">
+      <displayName>Applicant</displayName>
+    </role>
+    <role name="Department Head">
+      <displayName>Department Head</displayName>
+    </role>
+    <role name="Lecturer">
+      <displayName>Lecturer</displayName>
+    </role>
+    <role name="Deputy Registrar of Examination">
+      <displayName>Deputy Registrar of Examination</displayName>
+    </role>
+    <role name="Deputy Registrar of Faculty">
+      <displayName>Deputy Registrar of Faculty</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Applicant">
+      <displayName>Applicant</displayName>
+    </group>
+    <group name="Employees">
+      <displayName>Employees</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Lecturer1</userName>
+      <roleName>Lecturer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>Lecturer2</userName>
+      <roleName>Lecturer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>Lecturer3</userName>
+      <roleName>Lecturer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>DepElec</userName>
+      <roleName>Department Head</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>DepElec</userName>
+      <roleName>Lecturer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>DepCivil</userName>
+      <roleName>Department Head</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>DepCivil</userName>
+      <roleName>Lecturer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>DepMech</userName>
+      <roleName>Department Head</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>DepMech</userName>
+      <roleName>Lecturer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>RegExamination</userName>
+      <roleName>Deputy Registrar of Examination</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>RegFaculty</userName>
+      <roleName>Deputy Registrar of Faculty</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>Applicant</userName>
+      <roleName>Applicant</roleName>
+      <groupName>Applicant</groupName>
+    </membership>
+    <membership>
+      <userName>AdmissionOfficer</userName>
+      <roleName>Admission Officer</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
