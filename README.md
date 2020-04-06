@@ -39,7 +39,8 @@ This example involves several steps:
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/contracts.png)
 
 - UI for application
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/forms.png)
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Updated%20form(with%20read%20only%20option).png)
 
-- Current validation status(There is no errors in the diagram. The status only says the information due to the use default form design in Bonitasoft)
+- Current validation status(There are no errors in the diagram. The status only says the information due to the use default form design in Bonitasoft)
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Validation%20status%20(5.4.2020).png)
