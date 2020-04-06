@@ -6,7 +6,10 @@ This example involves several steps:
 - Define the data model using Business Data Management
 - Define the organization
 - Create the BPMN diagram
-- Create business user interface using UI designer
+- assign the actors to the task
+- Develop the forms to the user task
+- Initiate the task by a simple form
+- Develop the operations needed to perform the process
 
 ## Course Registration steps
 - Students fills the online form
@@ -25,14 +28,18 @@ This example involves several steps:
 - Actors defined in the process
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Actors.png)
 
-- User credential to the portal (Note: password is abc)
+- User credential to the portal
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Members.png)
+
+- BPMN diagram for the project
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/BPMN%20diagram%201.png)
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/BPMN%20diagram%202.png)
 
 - Contracts defined for the application form
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/contracts.png)
 
 - UI for application
-![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/forms.png)
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Updated%20form(with%20read%20only%20option).png)
 
-- Current validation status
-![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Validation%20status.png)
+- Current validation status(There is no errors in the diagram. The status only says the information due to the use default form design in Bonitasoft)
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Validation%20status%20(5.4.2020).png)
