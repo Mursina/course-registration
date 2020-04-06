@@ -39,6 +39,7 @@ This example involves several steps:
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/contracts.png)
 
 - UI for application
+
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/forms.png)
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Updated%20form(with%20read%20only%20option).png)
 
