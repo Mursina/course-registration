@@ -14,6 +14,10 @@
             <fields>
                 <field type="BOOLEAN" length="255" name="isComplete" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="isGPACorrect" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="agreementId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="courseId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="applicantId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="administrationId" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -62,16 +66,11 @@
         </businessObject>
         <businessObject qualifiedName="com.company.model.CourseApplication">
             <fields>
-                <field type="LONG" length="255" name="applicantId" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="signature" nullable="true" collection="false"/>
                 <field type="LOCALDATETIME" length="255" name="dateOfSignature" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="eligibiligty" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="ID" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="course" nullable="true" collection="false"/>
-                <field type="LONG" length="255" name="courseId" nullable="true" collection="false"/>
-                <field type="LONG" length="255" name="agreementId" nullable="true" collection="false"/>
-                <field type="LONG" length="255" name="admissionId" nullable="true" collection="false"/>
-                <field type="LONG" length="255" name="examinationId" nullable="true" collection="false"/>
                 <field type="LONG" length="255" name="visitId" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
