@@ -22,7 +22,7 @@ This example involves several steps:
 - Admission unit send the letter of offer to the student via mail
 
 ## Screenshots
-- Businees object created for the process
+- Business object created for the process
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Business%20Data%20Model.png)
 
 - Actors defined in the process
@@ -42,6 +42,9 @@ This example involves several steps:
 
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/forms.png)
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Updated%20form(with%20read%20only%20option).png)
+
+- Form entry can be updated in the h2 database
+![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/form%20entry%20is%20update%20in%20database.png)
 
 - Current validation status(There are no errors in the diagram. The status only says the information due to the use default form design in Bonitasoft)
 ![ScreenShot](https://github.com/Mursina/course-registration/blob/master/screenshots/Validation%20status%20(5.4.2020).png)
